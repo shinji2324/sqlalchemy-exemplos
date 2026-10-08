@@ -1,0 +1,13 @@
+{
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "pylint.enabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "files.exclude": {
+        "**/*.pyc": {"when": "$(basename).py"},
+        "**/__pycache__": true,
+        "**/*.pytest_cache": true
+    }
+}
